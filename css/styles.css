@@ -1,0 +1,32 @@
+.block {
+  padding: 6rem 2rem;
+}
+
+.block--dark {
+  background: #000;
+  color: #7b858b;
+}
+
+.block__heading {
+  font-size: 5rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.hero__content {
+  margin-bottom: 10rem;
+}
+
+.block .button {
+  background: dodgerblue;
+  border: none;
+}
