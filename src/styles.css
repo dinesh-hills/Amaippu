@@ -26,7 +26,7 @@ ul {
 }
 
 /* Property Card */
-.Card {
+.PropertyCard {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
@@ -65,7 +65,7 @@ ul {
 
 .PropertyList {
   display: grid;
-  padding: 2rem;
+  padding: 2rem 2rem;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   gap: 1.2rem;
@@ -91,4 +91,15 @@ ul {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+}
+
+/* Footer */
+.footer {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(167, 167, 167);
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  background: #000;
 }
